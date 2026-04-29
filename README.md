@@ -140,4 +140,4 @@ app-health-monitor/
 Built by **Chandu** as part of an Application Support 
 Engineer portfolio project.
 
-Connect on LinkedIn: www.linkedin.com/in/YOUR-LINKEDIN-HERE
+Connect on LinkedIn: https://www.linkedin.com/in/chandu-ch
