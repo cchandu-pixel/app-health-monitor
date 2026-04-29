@@ -1,0 +1,42 @@
+{
+  "user-service": {
+    "total_checks": 33,
+    "successful_checks": 31,
+    "failed_checks": 2,
+    "last_status": "UP",
+    "downtime_events": [
+      "2026-04-29 20:09:10.711885",
+      "2026-04-29 20:10:43.762173"
+    ]
+  },
+  "order-service": {
+    "total_checks": 31,
+    "successful_checks": 31,
+    "failed_checks": 0,
+    "last_status": "UP",
+    "downtime_events": []
+  },
+  "payment-service": {
+    "total_checks": 32,
+    "successful_checks": 31,
+    "failed_checks": 1,
+    "last_status": "UP",
+    "downtime_events": [
+      "2026-04-29 20:21:47.146495"
+    ]
+  },
+  "inventory-service": {
+    "total_checks": 31,
+    "successful_checks": 31,
+    "failed_checks": 0,
+    "last_status": "UP",
+    "downtime_events": []
+  },
+  "notification-service": {
+    "total_checks": 31,
+    "successful_checks": 31,
+    "failed_checks": 0,
+    "last_status": "UP",
+    "downtime_events": []
+  }
+}
