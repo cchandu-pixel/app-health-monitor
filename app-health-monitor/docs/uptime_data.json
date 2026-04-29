@@ -1,7 +1,7 @@
 {
   "user-service": {
-    "total_checks": 42,
-    "successful_checks": 40,
+    "total_checks": 57,
+    "successful_checks": 55,
     "failed_checks": 2,
     "last_status": "UP",
     "downtime_events": [
@@ -10,15 +10,15 @@
     ]
   },
   "order-service": {
-    "total_checks": 40,
-    "successful_checks": 40,
+    "total_checks": 55,
+    "successful_checks": 55,
     "failed_checks": 0,
     "last_status": "UP",
     "downtime_events": []
   },
   "payment-service": {
-    "total_checks": 41,
-    "successful_checks": 40,
+    "total_checks": 56,
+    "successful_checks": 55,
     "failed_checks": 1,
     "last_status": "UP",
     "downtime_events": [
@@ -26,15 +26,15 @@
     ]
   },
   "inventory-service": {
-    "total_checks": 40,
-    "successful_checks": 40,
+    "total_checks": 55,
+    "successful_checks": 55,
     "failed_checks": 0,
     "last_status": "UP",
     "downtime_events": []
   },
   "notification-service": {
-    "total_checks": 40,
-    "successful_checks": 40,
+    "total_checks": 55,
+    "successful_checks": 55,
     "failed_checks": 0,
     "last_status": "UP",
     "downtime_events": []
