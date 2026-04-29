@@ -1,42 +1,47 @@
 {
   "user-service": {
-    "total_checks": 57,
-    "successful_checks": 55,
-    "failed_checks": 2,
-    "last_status": "UP",
-    "downtime_events": [
-      "2026-04-29 20:09:10.711885",
-      "2026-04-29 20:10:43.762173"
-    ]
-  },
-  "order-service": {
-    "total_checks": 55,
-    "successful_checks": 55,
-    "failed_checks": 0,
-    "last_status": "UP",
-    "downtime_events": []
-  },
-  "payment-service": {
-    "total_checks": 56,
-    "successful_checks": 55,
+    "total_checks": 5,
+    "successful_checks": 4,
     "failed_checks": 1,
     "last_status": "UP",
     "downtime_events": [
-      "2026-04-29 20:21:47.146495"
+      "2026-04-29 20:37:26.459902"
+    ]
+  },
+  "order-service": {
+    "total_checks": 5,
+    "successful_checks": 4,
+    "failed_checks": 1,
+    "last_status": "UP",
+    "downtime_events": [
+      "2026-04-29 20:37:29.465126"
+    ]
+  },
+  "payment-service": {
+    "total_checks": 5,
+    "successful_checks": 4,
+    "failed_checks": 1,
+    "last_status": "UP",
+    "downtime_events": [
+      "2026-04-29 20:37:32.469834"
     ]
   },
   "inventory-service": {
-    "total_checks": 55,
-    "successful_checks": 55,
-    "failed_checks": 0,
+    "total_checks": 5,
+    "successful_checks": 4,
+    "failed_checks": 1,
     "last_status": "UP",
-    "downtime_events": []
+    "downtime_events": [
+      "2026-04-29 20:37:35.481786"
+    ]
   },
   "notification-service": {
-    "total_checks": 55,
-    "successful_checks": 55,
-    "failed_checks": 0,
+    "total_checks": 5,
+    "successful_checks": 4,
+    "failed_checks": 1,
     "last_status": "UP",
-    "downtime_events": []
+    "downtime_events": [
+      "2026-04-29 20:37:38.486461"
+    ]
   }
 }

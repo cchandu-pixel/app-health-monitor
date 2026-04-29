@@ -1,0 +1,98 @@
+version: '3.8'
+
+services:
+
+  user-service:
+    build:
+      context: .
+      dockerfile: Dockerfile.service
+    container_name: user-service
+    command: python3 services/user_service.py
+    ports:
+      - "5001:5001"
+    networks:
+      - app-network
+
+  order-service:
+    build:
+      context: .
+      dockerfile: Dockerfile.service
+    container_name: order-service
+    command: python3 services/order_service.py
+    ports:
+      - "5002:5002"
+    networks:
+      - app-network
+
+  payment-service:
+    build:
+      context: .
+      dockerfile: Dockerfile.service
+    container_name: payment-service
+    command: python3 services/payment_service.py
+    ports:
+      - "5003:5003"
+    networks:
+      - app-network
+
+  inventory-service:
+    build:
+      context: .
+      dockerfile: Dockerfile.service
+    container_name: inventory-service
+    command: python3 services/inventory_service.py
+    ports:
+      - "5004:5004"
+    networks:
+      - app-network
+
+  notification-service:
+    build:
+      context: .
+      dockerfile: Dockerfile.service
+    container_name: notification-service
+    command: python3 services/notification_service.py
+    ports:
+      - "5005:5005"
+    networks:
+      - app-network
+
+  health-monitor:
+    build:
+      context: .
+      dockerfile: Dockerfile.service
+    container_name: health-monitor
+    command: python3 monitor/health_check.py
+    volumes:
+      - ./docs:/app/docs
+    depends_on:
+      - user-service
+      - order-service
+      - payment-service
+      - inventory-service
+      - notification-service
+    networks:
+      - app-network
+
+  status-page:
+    build:
+      context: .
+      dockerfile: Dockerfile.service
+    container_name: status-page
+    command: python3 status/status_page.py
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./docs:/app/docs
+    depends_on:
+      - user-service
+      - order-service
+      - payment-service
+      - inventory-service
+      - notification-service
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

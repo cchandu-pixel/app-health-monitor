@@ -507,3 +507,88 @@
 [2026-04-29 20:34:50.656272] ✅ inventory-service is UP - 0.00s
 [2026-04-29 20:34:50.658880] ✅ notification-service is UP - 0.00s
 [2026-04-29 20:34:50.660051] ⏳ Next check in 30 seconds...
+[2026-04-29 20:35:20.660291] 
+🔍 Check #56 - 2026-04-29 20:35:20.660268
+[2026-04-29 20:35:20.660524] ------------------------------------------------------------
+[2026-04-29 20:35:20.662967] ✅ user-service is UP - 0.00s
+[2026-04-29 20:35:20.665045] ✅ order-service is UP - 0.00s
+[2026-04-29 20:35:20.667633] ✅ payment-service is UP - 0.00s
+[2026-04-29 20:35:20.670365] ✅ inventory-service is UP - 0.00s
+[2026-04-29 20:35:20.673233] ✅ notification-service is UP - 0.00s
+[2026-04-29 20:35:20.673698] ⏳ Next check in 30 seconds...
+[2026-04-29 20:35:50.673903] 
+🔍 Check #57 - 2026-04-29 20:35:50.673880
+[2026-04-29 20:35:50.674102] ------------------------------------------------------------
+[2026-04-29 20:35:50.676471] ✅ user-service is UP - 0.00s
+[2026-04-29 20:35:50.678644] ✅ order-service is UP - 0.00s
+[2026-04-29 20:35:50.680860] ✅ payment-service is UP - 0.00s
+[2026-04-29 20:35:50.683874] ✅ inventory-service is UP - 0.00s
+[2026-04-29 20:35:50.686990] ✅ notification-service is UP - 0.00s
+[2026-04-29 20:35:50.687505] ⏳ Next check in 30 seconds...
+[2026-04-29 20:36:20.688006] 
+🔍 Check #58 - 2026-04-29 20:36:20.687982
+[2026-04-29 20:36:20.688301] ------------------------------------------------------------
+[2026-04-29 20:36:20.690780] ✅ user-service is UP - 0.00s
+[2026-04-29 20:36:20.692951] ✅ order-service is UP - 0.00s
+[2026-04-29 20:36:20.695396] ✅ payment-service is UP - 0.00s
+[2026-04-29 20:36:20.698088] ✅ inventory-service is UP - 0.00s
+[2026-04-29 20:36:20.701249] ✅ notification-service is UP - 0.00s
+[2026-04-29 20:36:20.702087] ⏳ Next check in 30 seconds...
+[2026-04-29 20:37:26.454066] 🚀 Health Monitor Started - Checking every 30 seconds
+[2026-04-29 20:37:26.454341] ============================================================
+[2026-04-29 20:37:26.454513] 
+🔍 Check #1 - 2026-04-29 20:37:26.454506
+[2026-04-29 20:37:26.454650] ------------------------------------------------------------
+[2026-04-29 20:37:26.459736] ❌ user-service is DOWN - HTTPConnectionPool(host='localhost', port=5001): M
+[2026-04-29 20:37:26.459909] ⚠️  user-service is down! Attempting auto recovery...
+[2026-04-29 20:37:26.460050] 🔄 Attempting to restart user-service...
+[2026-04-29 20:37:29.463824] ✅ user-service is UP - 0.00s
+[2026-04-29 20:37:29.464037] ✅ user-service restarted successfully!
+[2026-04-29 20:37:29.464972] ❌ order-service is DOWN - HTTPConnectionPool(host='localhost', port=5002): M
+[2026-04-29 20:37:29.465134] ⚠️  order-service is down! Attempting auto recovery...
+[2026-04-29 20:37:29.465262] 🔄 Attempting to restart order-service...
+[2026-04-29 20:37:32.468579] ✅ order-service is UP - 0.00s
+[2026-04-29 20:37:32.468804] ✅ order-service restarted successfully!
+[2026-04-29 20:37:32.469743] ❌ payment-service is DOWN - HTTPConnectionPool(host='localhost', port=5003): M
+[2026-04-29 20:37:32.469840] ⚠️  payment-service is down! Attempting auto recovery...
+[2026-04-29 20:37:32.469924] 🔄 Attempting to restart payment-service...
+[2026-04-29 20:37:35.477953] ✅ payment-service is UP - 0.01s
+[2026-04-29 20:37:35.478729] ✅ payment-service restarted successfully!
+[2026-04-29 20:37:35.481682] ❌ inventory-service is DOWN - HTTPConnectionPool(host='localhost', port=5004): M
+[2026-04-29 20:37:35.481793] ⚠️  inventory-service is down! Attempting auto recovery...
+[2026-04-29 20:37:35.481870] 🔄 Attempting to restart inventory-service...
+[2026-04-29 20:37:38.485265] ✅ inventory-service is UP - 0.00s
+[2026-04-29 20:37:38.485498] ✅ inventory-service restarted successfully!
+[2026-04-29 20:37:38.486377] ❌ notification-service is DOWN - HTTPConnectionPool(host='localhost', port=5005): M
+[2026-04-29 20:37:38.486468] ⚠️  notification-service is down! Attempting auto recovery...
+[2026-04-29 20:37:38.486575] 🔄 Attempting to restart notification-service...
+[2026-04-29 20:37:41.490145] ✅ notification-service is UP - 0.00s
+[2026-04-29 20:37:41.490369] ✅ notification-service restarted successfully!
+[2026-04-29 20:37:41.490771] ⏳ Next check in 30 seconds...
+[2026-04-29 20:38:11.490959] 
+🔍 Check #2 - 2026-04-29 20:38:11.490938
+[2026-04-29 20:38:11.491145] ------------------------------------------------------------
+[2026-04-29 20:38:11.493642] ✅ user-service is UP - 0.00s
+[2026-04-29 20:38:11.495761] ✅ order-service is UP - 0.00s
+[2026-04-29 20:38:11.497883] ✅ payment-service is UP - 0.00s
+[2026-04-29 20:38:11.500234] ✅ inventory-service is UP - 0.00s
+[2026-04-29 20:38:11.502301] ✅ notification-service is UP - 0.00s
+[2026-04-29 20:38:11.502737] ⏳ Next check in 30 seconds...
+[2026-04-29 20:38:41.502962] 
+🔍 Check #3 - 2026-04-29 20:38:41.502941
+[2026-04-29 20:38:41.503159] ------------------------------------------------------------
+[2026-04-29 20:38:41.505633] ✅ user-service is UP - 0.00s
+[2026-04-29 20:38:41.507755] ✅ order-service is UP - 0.00s
+[2026-04-29 20:38:41.509759] ✅ payment-service is UP - 0.00s
+[2026-04-29 20:38:41.511744] ✅ inventory-service is UP - 0.00s
+[2026-04-29 20:38:41.513734] ✅ notification-service is UP - 0.00s
+[2026-04-29 20:38:41.514189] ⏳ Next check in 30 seconds...
+[2026-04-29 20:39:11.514386] 
+🔍 Check #4 - 2026-04-29 20:39:11.514364
+[2026-04-29 20:39:11.514554] ------------------------------------------------------------
+[2026-04-29 20:39:11.516981] ✅ user-service is UP - 0.00s
+[2026-04-29 20:39:11.519033] ✅ order-service is UP - 0.00s
+[2026-04-29 20:39:11.521045] ✅ payment-service is UP - 0.00s
+[2026-04-29 20:39:11.523041] ✅ inventory-service is UP - 0.00s
+[2026-04-29 20:39:11.525041] ✅ notification-service is UP - 0.00s
+[2026-04-29 20:39:11.525492] ⏳ Next check in 30 seconds...
